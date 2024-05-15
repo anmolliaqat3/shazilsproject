@@ -1,0 +1,146 @@
+ 
+
+
+
+body {
+    
+    background-color: #030418;
+    font-family: "Varela Round", sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     margin: 0;
+} 
+
+
+h1 {
+    border: 2px solid #9e8638;
+    color: whitesmoke;
+    background-color: black;
+    margin: 0 auto 20px;
+    padding: 14px 4px;
+    border-radius: 22px;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    background-color: black;
+    color: #8a6645;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px #9e8638;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 22rem;
+}
+
+h2 {
+    color: #9e8638;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+.box h4 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.container a {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px groove #9e8638;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+
+.container a:hover {
+    background-color: rgb(117, 117, 117);
+    color: #001D3D;
+    font-weight: bold;
+}
+
+/* Media Query for Phones */
+@media only screen and (max-width: 370px) {
+    h1 {
+        font-size: 22px;
+        width: 100%;
+        position: relative;
+        top: -2rem;
+        left: 0rem;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    .container {
+        width: 82%;
+        position: relative;
+        left: 17px;
+        top: -1rem;
+        height: 21rem;
+    }
+
+    #box1 {
+        font-size: 16px;
+    }
+
+    .container a {
+        padding: 8px 5px;
+        width: 14rem;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+}
+
+/* Media Query for Laptops */
+@media only screen and (min-width: 1024px) {
+    h1 {
+        width: 150%;
+        position: relative;
+        left: -9rem;
+        top: -2rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    .box h4 {
+        padding: 7px;
+    }
+
+    #box1 {
+        font-size: 17px;
+    }
+
+    .container a {
+        border-radius: 20px;
+        width: 14rem;
+        text-align: center;
+        font-size: 17px;
+    }
+}

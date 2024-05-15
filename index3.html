@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Form</h1>
+        </div>
+        <div class="instructions">
+            <h2>Instructions</h2>
+            <p>Follow these instructions:</p>
+            <ul>
+                <li>Fill up the form given below honestly and with your whole emotions.</li>
+                <li>This is what it feels like when your girlfriend is more flirt than you so don't be so happy. And
+                    don't think that you are so lucky to have me. Its nothing more than any confession to you. Got it!!
+                </li>
+                <li>After filling the answers screenshot the form to me as I have not connected this form to any
+                    backend.</li>
+            </ul>
+        </div>
+        <div class="form-box">
+            <h3>Give me your answers</h3>
+            <form action="backend.php" class="form">
+                <div class="form-group">
+                    <label for="feelings">Are you happy with me?</label> <br>
+                    <input type="radio" name="feelings" id="happy" value="yes">
+                    <label for="happy">Yes</label>
+                    <input type="radio" name="feelings" id="unhappy" value="no">
+                    <label for="unhappy">No</label>
+                </div>
+                <div class="form-group">
+                    <label for="liking">How do you like it?</label> <br>
+                    <select name="myliking" id="liking">
+                        <option value="like">Like it</option>
+                        <option value="love">Love it</option>
+                        <option value="dont like" selected>Did not like it</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Rate my project:</label> <br>
+                    <input type="number" name="myrating" id="rating">
+                </div>
+                <div class="form-group">
+                    <label for="remembrance">Will you remember me?</label> <br>
+                    <input type="checkbox" name="mythoughts" id="remembrance">
+                </div>
+        </div>
+        <div class="form-box1">
+            <div class="form-group">
+                <label for="emotions">How are you feeling right now?</label> <br>
+                <textarea name="mytext" id="emotions" cols="30" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="prospective">What do you think about me?</label> <br>
+                <textarea name="myprospective" id="prospective" cols="30" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="questions">Your turn, any questions for me?</label> <br>
+                <textarea name="myquestions" id="questions" cols="30" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="work">Have you taken the screenshot?</label> <br>
+                <input type="checkbox" name="mywork" id="work">
+            </div>
+            <div class="form-group" id="button">
+                <input type="submit" value="Submit Now">|
+                <input type="reset" value="Reset">
+            </div>
+        </div>
+        </form>
+    </div>
+    <div class="footer">
+        <p>
+            Well, sorry for not much excellent expected results but I am trying to learn more organically than cheating.
+            I don't know that whether you have liked it or not but I am trying my best. Done with everything? Okay now,
+            come back to me.
+            <a href="https://wa.link/d37ip2/" target="_blank">Click Here...</a>
+        </p>
+    </div>
+    </div>
+</body>
+
+</html>

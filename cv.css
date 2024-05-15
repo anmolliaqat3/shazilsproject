@@ -1,0 +1,416 @@
+body {
+    background-color: rgb(209, 223, 187);
+    font-family: "Varela Round", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h3 {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    border: 2px groove grey;
+    padding: 12px;
+    background-color: rgb(240, 235, 229);
+    color: rgb(135, 87, 92);
+    border-radius: 9px;
+}
+
+#text {
+    text-align: center;
+    background-color: rgb(240, 235, 229);
+    position: absolute;
+    animation-name: shazil1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes shazil1 {
+    from {
+        width: 15px;
+    }
+
+    to {
+        width: 300px;
+    }
+}
+
+h2 {
+    margin: 25px 2px;
+    padding: 13px;
+    border: 2px solid rgb(135, 87, 92);
+    border-radius: 28px;
+    font-size: 22px;
+    background-color: rgb(240, 235, 229);
+
+}
+
+#img {
+    margin: 25px auto;
+}
+
+#box1 {
+    padding: 0.5rem;
+
+    border: 2px solid rgb(135, 87, 92);
+    border-radius: 12px;
+    box-shadow: 3px 3px rgb(148, 96, 96);
+
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#box2,
+#box3 {
+
+    margin: 15px 0;
+    text-align: center;
+}
+
+#box4 {
+    text-align: center;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.para {
+    box-shadow: 3px 3px rgb(148, 96, 96);
+}
+
+#p1,
+#p2 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(135, 87, 92);
+    border-radius: 9px;
+}
+
+#para1 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(135, 87, 92);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    transition: all  1s ease-in-out ;
+}
+#para1:hover{
+    /* background-color: rgb(192, 190, 190);
+    height: 175px;
+    width: 85%;
+    font-size: 17px;
+    border-radius: 12px; */
+    transform: scale(0.95);
+}
+a{
+    font-weight: bold;
+}
+#iloveshazil {
+    text-align: center;
+
+
+}
+
+#line,
+#line2 {
+    margin: 15px auto;
+}
+
+#table1,
+#table2 {
+    margin: 10px auto;
+    width: 90%;
+}
+
+#table1 td,
+#table2 td {
+    padding: 0.4rem;
+}
+
+#table1 th,
+#table2 th {
+    padding: 0.4rem;
+    font-size: 1rem;
+}
+
+.center {
+    text-align: center;
+    border: 2px groove;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+
+}
+
+@media screen and (max-width: 370px) {
+    h1 {
+        position: relative;
+        left: 3.5rem;
+        width: 100%;
+    }
+
+    h2 {
+
+        width: 22rem;
+        position: relative;
+        top: 6rem;
+        left: 3rem;
+    }
+
+    #box1 {
+        margin-right: 5rem;
+        position: relative;
+        left: 10rem;
+        top: 6rem;
+
+    }
+
+    #img {
+        position: relative;
+        top: 7rem;
+        left: -3rem;
+    }
+
+    .para {
+        position: relative;
+        top: 9rem;
+        width: 105%;
+    }
+
+    #box2 {
+        position: relative;
+        top: 10.5rem;
+        left: 3rem;
+
+    }
+
+    #table1 {
+        position: relative;
+        top: 10rem;
+        left: 2.5rem;
+    }
+
+    #box3 {
+        position: relative;
+        top: 11.5rem;
+        left: 2.5rem;
+    }
+
+    #table2 {
+        position: relative;
+        top: 11rem;
+        left: 2.5rem;
+    }
+
+    #box4 {
+        position: relative;
+        top: 11.5rem;
+        left: 3rem;
+
+    }
+
+    #p2 {
+        position: relative;
+        top: 11rem;
+    }
+
+    #iloveshazil {
+        position: relative;
+        top: 13rem;
+        left: -1rem;
+    }
+
+    #shazil {
+        position: relative;
+        left: 5rem;
+        top: 13rem;
+    }
+
+    #para1 {
+        position: relative;
+        top: 15rem;
+        
+    }
+    a{
+        position: relative;
+        top: 12.3rem;
+        left: 19rem;
+        font-weight: bold;
+    }
+    #line {
+        position: relative;
+        top: 7rem;
+        left: 3rem;
+        width: 80%;
+
+    }
+
+    #line2 {
+
+        width: 90%;
+        margin-top: 18rem;
+        margin-bottom: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .center {
+        position: relative;
+        left: 2rem;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    h1 {
+        width: 85%;
+        position: relative;
+        left: 1.5rem;
+        top: 2rem;
+    }
+
+
+    h2 {
+        width: 20rem;
+        left: 19rem;
+        top: 10rem;
+
+    }
+
+    #img {
+        position: relative;
+        left: -25rem;
+        top: 3rem;
+    }
+
+
+
+    #box1 {
+        position: relative;
+        left: -2rem;
+        top: 2rem;
+    }
+
+
+    #p1 {
+        width: 84%;
+        position: relative;
+        top: 1rem;
+        left: 7.5rem;
+    }
+
+    #box2 {
+        width: 19%;
+        position: relative;
+        top: 3rem;
+        left: 13.5rem;
+
+    }
+
+    #box3 {
+        width: 23%;
+        position: relative;
+        left: -6.5rem;
+        top: 7.5rem;
+
+    }
+
+    #box4 {
+        width: 45%;
+        position: relative;
+        top: 2rem;
+        left: 4rem;
+    }
+
+
+    #table1 {
+        width: 45%;
+        position: relative;
+        top: 8rem;
+        left: -16rem;
+
+    }
+
+    #table2 {
+        width: 32%;
+        position: relative;
+        top: -3rem;
+        left: 23rem;
+    }
+
+    #p2 {
+        width: 36%;
+        height: 15rem;
+        padding: 1rem;
+        position: relative;
+        top: 2rem;
+        left: 6.5rem;
+    }
+
+    #iloveshazil {
+        width: 33%;
+        position: relative;
+        top: -18rem;
+        left: 45rem;
+    }
+
+    #shazil {
+
+        width: 33%;
+        position: relative;
+        top: -18rem;
+        left: 52rem;
+    }
+
+    #para1 {
+        position: relative;
+        top: -15rem;
+        left: 8rem;
+        width: 80%;
+        margin-top: 2rem;
+
+    }
+    a{
+        position: relative;
+        top: -17.6rem;
+        left: 67.3rem;
+
+    }
+    #line {
+        width: 75%;
+        margin: 3rem 12rem;
+    }
+
+    #line2 {
+        position: relative;
+        top: -9rem;
+        left: 1.5rem;
+        width: 85%;
+    }
+
+    .center {
+        position: relative;
+        left: 0.4vrem;
+
+    }
+  }

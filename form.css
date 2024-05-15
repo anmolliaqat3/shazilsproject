@@ -1,0 +1,190 @@
+body {
+    background-color: rgb(11, 46, 53);
+    color: rgb(148, 146, 148);
+    font-family: "Varela Round", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    border: 2px solid purple;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0px 2px;
+    border-radius: 19px;
+}
+
+/* Instructions */
+.instructions {
+    border: 2px groove purple;
+    background-color: black;
+    border-radius: 8px;
+    padding: 4px 12px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px;
+}
+
+/* Form Box */
+.form-box {
+    border: 2px solid purple;
+    background-color: black;
+    border-radius: 17px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.form-box1 {
+    border: 2px solid purple;
+    background-color: black;
+    border-radius: 17px;
+    padding: 40px;
+    width: 70%;
+    text-align: center;
+    box-shadow: 3px 3px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Form Inputs */
+input[type="text"],
+input[type="number"],
+select {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 7px;
+    background-color: gray;
+    color: black;
+    margin-top: 5px;
+}
+
+textarea {
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 7px;
+    background-color: gray;
+    color: black;
+    margin-top: 5px;
+    font-family: "Varela Round", sans-serif;
+    width: 75%;
+
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 6px;
+    width: 10rem;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    color: purple;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    font-size: 17px;
+    color: gray;
+}
+
+.footer a {
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: rgb(110, 38, 110);
+}
+
+/* Media queries */
+@media screen and (max-width: 600px) {
+
+    /* Adjustments for phones */
+    .instructions {
+        width: 90%;
+
+    }
+
+    .form-box {
+        width: 90%;
+
+
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 44%;
+        margin: 1rem 0.3rem;
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    /* Adjustments for larger devices */
+    .container {
+        padding: 40px;
+    }
+
+    .instructions {
+        width: 75%;
+        position: relative;
+        left: -4rem;
+        top: 2rem;
+    }
+
+    .form-box {
+        width: 85%;
+        position: relative;
+        top: 5rem;
+        left: 0rem;
+
+    }
+
+    .form-box1 {
+        position: relative;
+        top: 7rem;
+        width: 60%;
+    }
+
+    textarea {
+        height: 7rem;
+        font-family: "Varela Round", sans-serif;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        margin: 0rem 0.5rem;
+    }
+    .footer{
+        position: relative;
+        top: 8rem;
+        margin: 0.3rem 0.4rem;
+    }
+}
